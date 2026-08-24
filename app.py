@@ -1,12 +1,3 @@
-"""
-Song Recommendation System — Streamlit Web App
-===============================================
-Run with:
-    streamlit run app.py
-
-Make sure dataset.csv is in the same directory.
-"""
-
 import streamlit as st
 import pandas as pd
 import numpy as np
