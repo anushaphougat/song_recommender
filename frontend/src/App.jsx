@@ -6,7 +6,7 @@ import SongSearch from './components/SongSearch.jsx'
 import MoodSearch from './components/MoodSearch.jsx'
 import Explore from './components/Explore.jsx'
 
-const API = '/api'
+const API = 'https://song-recommender-j7k1.onrender.com/'
 const TABS = [
   { id: 'song',  label: '🎵 Find by Song' },
   { id: 'mood',  label: '🎭 Find by Mood' },
