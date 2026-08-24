@@ -17,8 +17,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics.pairwise import cosine_similarity
 
 # ── Config ───────────────────────────────────────────────────────────────────
-DATASET_PATH = Path("C:\Users\anusha\OneDrive\Documents\Downloads\songrecommender\dataset.csv").resolve().parent / "dataset.csv"
-df = pd.read_csv(DATASET_PATH)
+DATASET_PATH = Path(__file__).resolve().parent.parent / "dataset.csv"
 
 FEATURE_COLS = [
     "danceability", "energy", "loudness", "speechiness",
