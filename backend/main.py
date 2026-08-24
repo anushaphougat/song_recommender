@@ -1,12 +1,4 @@
-"""
-FastAPI Backend for Song Recommendation System
-===============================================
-Run with:
-    uvicorn main:app --reload --port 8000
-
-Make sure dataset.csv is accessible at the DATASET_PATH below.
-"""
-
+from pathlib import Path
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
